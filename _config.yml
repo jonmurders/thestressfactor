@@ -1,31 +1,16 @@
-title: The Stress Factor 
-description: A weekly review of a Mechanical Design PE prep problem.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://jonmurders.github.io/thestressfactor/" # the base hostname & protocol for your site
+title: The Stress Factor
+description: "Weekly solved problems for Mechanical Engineering Machine Design PE exam preparation."
+baseurl: "" # Leave empty for root URL
+url: "https://jonmurders.github.io/thestressfactor/" # Replace with your actual URL
+theme: jekyll-theme-architect
 
-# Build settings
+# Optional: Customize the navigation menu
+theme_config:
+  navigation:
+    - Home: /
+    - About: /about
+    - Contact: /contact
+
+# Other optional settings
 markdown: kramdown
-remote_theme: pages-themes/architect@v0.2.0
-
-# Permalinks
-# permalink: /:categories/:year/:month/:day/:title.html
-
-# Plugins
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-remote-theme
-
-# # Author settings
-# author:
-#   name: Your Name
-#   email: your-email@example.com
-
-# # Social media settings
-# social:
-#   twitter: your-twitter-handle
-#   github: your-github-username
-
-# Other settings
-paginate: 5
-paginate_path: "/page:num/"
+highlighter: rouge
