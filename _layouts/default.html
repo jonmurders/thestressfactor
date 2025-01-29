@@ -26,12 +26,12 @@
         {% if site.github.is_project_page %}
           <a href="{{ site.github.repository_url }}" class="button"><small>View project on</small> GitHub</a>
         {% endif %}
-        {{% include navigation.html %}}
       </div>
     </header>
     <div id="content-wrapper">
       <div class="inner clearfix">
         <section id="main-content">
+          {{% include navigation.html %}}
           {{ content }}
         </section>
 
