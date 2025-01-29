@@ -1,0 +1,30 @@
+title: The Stress Factor 
+description: A weekly review of a Mechanical Design PE prep problem.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://jonmurders.github.io/thestressfactor/" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+theme: minima
+
+# Permalinks
+# permalink: /:categories/:year/:month/:day/:title.html
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# # Author settings
+# author:
+#   name: Your Name
+#   email: your-email@example.com
+
+# # Social media settings
+# social:
+#   twitter: your-twitter-handle
+#   github: your-github-username
+
+# Other settings
+paginate: 5
+paginate_path: "/page:num/"
