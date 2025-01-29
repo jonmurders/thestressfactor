@@ -1,6 +1,8 @@
 ---
 layout: post
-title: Question 1
+title: "Question 1"
+date: 2025-01-29
+excerpt: "What is the equation for tensile stress?"
 ---
 
 # Question: What is the equation for tensile stress?
