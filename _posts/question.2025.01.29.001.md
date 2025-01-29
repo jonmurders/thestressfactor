@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Question 1
-categories: question, stress
+categories: questions, stress
 ---
 
 # Question: What is the equation for tensile stress?
