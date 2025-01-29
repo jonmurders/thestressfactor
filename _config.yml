@@ -2,7 +2,13 @@ title: The Stress Factor
 description: "Weekly solved problems for Mechanical Engineering Machine Design PE exam preparation."
 baseurl: "" # Leave empty for root URL
 url: "https://jonmurders.github.io/thestressfactor/" # Replace with your actual URL
-theme: jekyll-theme-architect
+remote_theme: pages-themes/architect@v0.2.0
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-remote-theme
 
 # Optional: Customize the navigation menu
 theme_config:
