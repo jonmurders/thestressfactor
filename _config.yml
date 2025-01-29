@@ -3,6 +3,12 @@ description: "Weekly solved problems for Mechanical Engineering Machine Design P
 url: "https://jonmurders.github.io/thestressfactor/" # Replace with your actual URL
 remote_theme: pages-themes/architect@v0.2.0
 
+# Collections
+collections:
+  problems:
+    output: true
+    permalink: /problems/:path/
+
 # Plugins
 plugins:
   - jekyll-feed
