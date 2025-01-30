@@ -4,6 +4,7 @@ url: "https://jonmurders.github.io/thestressfactor/" # Replace with your actual 
 future: false
 show_drafts: false
 remote_theme: pages-themes/architect@v0.2.0
+excerpt_separator: <!--more-->
 
 # Collections
 collections:
