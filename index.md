@@ -9,7 +9,7 @@ Here, we'll post weekly solved problems to help you prepare for the Mechanical E
 
 # Problem of the Week
 {% for post in site.posts %}
-## [{{ post.title }}]({{ post.url }})
+## [{{ post.title }}]({{ post.url | relative_url }})
 
 {{ post.excerpt }}
 {% endfor %}
